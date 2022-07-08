@@ -206,8 +206,8 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
 }
 
 svg {
@@ -489,8 +489,6 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
-  width: auto;
 }
 
 .img-thumbnail {
@@ -498,8 +496,6 @@ mark,
   background-color: #343a40;
   border: 1px solid #dee2e6;
   border-radius: 0.2rem;
-  height: auto;
-  width: auto;
 }
 
 .figure {
@@ -10914,8 +10910,8 @@ a.text-dark:hover, a.text-dark:focus {
   tr,
   img {
     page-break-inside: avoid;
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
     
   }
   p,
